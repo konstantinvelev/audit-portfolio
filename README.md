@@ -2,8 +2,6 @@
 
 # **velev** — Smart Contract Security Researcher
 
-**Member of the Whitehat&lt;&gt;Recon Mastermind Program**
-
 20+ uncovered bugs across DeFi protocols · Starving for more.
 
 [![X / Twitter](https://img.shields.io/badge/-velevvv-black?logo=x&logoColor=white)](https://x.com/velevvv)
