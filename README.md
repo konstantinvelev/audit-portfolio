@@ -32,7 +32,6 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 | Aug–Sep 2025 | GTE Perps & Launchpad | Code4rena | 2 | $103,250 | $73.38 | 🎖️ 89th |
 | Jul 2025 | Succinct Network | Cantina | 1 | $30,000 | $298.24 | 🎖️ 16th |
 
-**Total earned: ~$2,610**
 
 ---
 
