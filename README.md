@@ -39,7 +39,7 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 
 | Id | Protocol | Description | Date | Provider |
 |----|----------|-------------|------|----------|
-| 1 | ShiftProtocol V2 | Vaults, Briges, Off-chain integration | January 2026 | [SBSecurity](https://www.sbsecurity.net/)
+| 1 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | January 2026 | [SBSecurity](https://www.sbsecurity.net/)
 
 ---
 
@@ -48,8 +48,8 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 | | |
 |---|---|
 | **Languages** | Solidity / EVM |
-| **Protocol Types** | Perpetuals, Yield, DEX, Borrow & Landing, Options traiding, Lottery & Gaming, Stablecoins & Stable AMM pools |
-| **Focus Areas** | Attaker exploits, Protocol invariants, Accounting bugs, Access control, Economic exploits |
+| **Protocol Types** | Perpetuals, Yield, DEX, Borrow & Lending, Options trading, Lottery & Gaming, Stablecoins & Stable AMM pools |
+| **Focus Areas** | Attacker exploits, Protocol invariants, Accounting bugs, Access control, Economic exploits |
 | **Methodology** | Manual review, AI tools,  Fuzzing | 
 | **Platforms** | Sherlock · Cantina · Code4rena · Private bounties · Shadow audits |
 
