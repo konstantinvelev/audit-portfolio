@@ -2,7 +2,7 @@
 
 # **velev** — Smart Contract Security Researcher
 
-20+ uncovered bugs across DeFi protocols · Starving for more.
+25+ uncovered bugs across DeFi protocols · Starving for more.
 
 [![X / Twitter](https://img.shields.io/badge/-velevvv-black?logo=x&logoColor=white)](https://x.com/velevvv)
 [![Telegram](https://img.shields.io/badge/-velevvv-2CA5E0?logo=telegram&logoColor=white)](https://t.me/velevvv)
@@ -35,6 +35,14 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 
 ---
 
+## 🕵 Private Audits
+
+| Id | Protocol | Description | Date | Provider |
+|----|----------|-------------|------|----------|
+| 1 | ShiftProtocol V2 | Vaults, Briges, Off-chain integration | January 2026 | [SBSecurity](https://www.sbsecurity.net/)
+
+---
+
 ## 🛠️ Focus & Tooling
 
 | | |
@@ -42,7 +50,7 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 | **Languages** | Solidity / EVM |
 | **Protocol Types** | Perpetuals, Yield, DEX, Borrow & Landing, Options traiding, Lottery & Gaming, Stablecoins & Stable AMM pools |
 | **Focus Areas** | Attaker exploits, Protocol invariants, Accounting bugs, Access control, Economic exploits |
-| **Methodology** | Manual review |
+| **Methodology** | Manual review, AI tools,  Fuzzing | 
 | **Platforms** | Sherlock · Cantina · Code4rena · Private bounties · Shadow audits |
 
 ---
