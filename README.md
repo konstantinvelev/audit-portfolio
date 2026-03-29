@@ -15,7 +15,7 @@
 
 ## About
 
-Hi, I'm **Velev** — a smart contract security researcher specializing in Solidity/EVM systems, DeFi protocols, and protocol invariant analysis. I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits of protocols. DMs are open for collaborations and private audit engagements.
+Hi, I'm **Velev** - a smart contract security researcher specializing in Solidity/EVM systems, DeFi protocols, and protocol invariant analysis. I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits of protocols. DMs are open for collaborations and private audit engagements.
 
 ---
 
@@ -45,7 +45,7 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 
 ## 🤖 Open Source AI - powered by Velev
 
-As an auditor, I saw firsthand how much time is lost to repetitive analysis patterns — so I built the tooling to fix it. After investing in learning AI systems, I distilled that knowledge into a production-ready skill library: structured prompts, agent pipelines, and methodology frameworks designed specifically for smart contract security research. Plug-and-play for any auditor, any codebase, any platform.
+As an auditor, I saw firsthand how much time is lost to repetitive analysis patterns - so I built the tooling to fix it. After investing in learning AI systems, I distilled that knowledge into a production-ready skill library: structured prompts, agent pipelines, and methodology frameworks designed specifically for smart contract security research. Plug-and-play for any auditor, any codebase, any platform.
 
 [![GitHub](https://img.shields.io/badge/-konstantinvelev/AI-181717?logo=github&logoColor=white)](https://github.com/konstantinvelev/AI)
 
@@ -78,10 +78,10 @@ Check out my work here: [![GitHub](https://img.shields.io/badge/-konstantinvelev
 
 ### Additional Resources
 
-- **RareSkills** — low-level EVM internals, gas optimization, and advanced Solidity patterns
-- **X / Twitter** — following top security researchers, reading post-mortems and live audit threads
-- **Solodit** — systematic deep dive into 50,000+ past audit findings across all major platforms
-- **Hands-on practice** — public contests, past audits, and reviewing historical audit reports
+- **RareSkills** - low-level EVM internals, gas optimization, and advanced Solidity patterns
+- **X / Twitter** - following top security researchers, reading post-mortems and live audit threads
+- **Solodit** - systematic deep dive into 50,000+ past audit findings across all major platforms
+- **Hands-on practice** - public contests, past audits, and reviewing historical audit reports
 
 ## 📫 Contact
 
@@ -89,7 +89,7 @@ Check out my work here: [![GitHub](https://img.shields.io/badge/-konstantinvelev
 |----------|------|
 | X / Twitter | [@velevvv](https://x.com/velevvv) |
 | Telegram | [@velevvv](https://t.me/velevvv) |
-| Email | [koceto.velev12@gmail.com](mailto:koceto.velev12@gmail.com) |
+| Email | [konstantin.velev.personal@gmail.com](mailto:konstantin.velev.personal@gmail.com) |
 
 ---
 
