@@ -43,6 +43,14 @@ Hi, I'm **Velev** — a smart contract security researcher specializing in Solid
 
 ---
 
+## 🤖 Open Source AI - powered by Velev
+
+As an auditor, I saw firsthand how much time is lost to repetitive analysis patterns — so I built the tooling to fix it. After investing in learning AI systems, I distilled that knowledge into a production-ready skill library: structured prompts, agent pipelines, and methodology frameworks designed specifically for smart contract security research. Plug-and-play for any auditor, any codebase, any platform.
+
+[![GitHub](https://img.shields.io/badge/-konstantinvelev/AI-181717?logo=github&logoColor=white)](https://github.com/konstantinvelev/AI)
+
+---
+
 ## 🛠️ Focus & Tooling
 
 | | |
