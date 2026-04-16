@@ -48,14 +48,14 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 
 *Only contests with confirmed findings and on-chain rewards are listed.*
 
-| Date | Protocol | Platform | Confirmed | Pot | Earned | Place |
-|------|----------|----------|-----------|-----|--------|-------|
-| Nov–Dec 2025 | Mento | Cantina | 1 | $60,000 | $256.78 | 🎖️ 6th |
-| Nov 2025 | Alignerz | Dual-Guard | 8 | $45,000 | $958.48 | 🏅 5th |
-| Nov 2025 | Firelight | Immunefi | 1 | $15,000 | $1,000.00 | 🎖️ 5th |
-| Oct 2025 | Avon | Cantina | 5 | $36,000 | $23.40 | 🎖️ 26th |
-| Aug–Sep 2025 | GTE Perps & Launchpad | Code4rena | 2 | $103,250 | $73.38 | - |
-| Jul 2025 | Succinct Network | Cantina | 1 | $30,000 | $298.24 | 🎖️ 16th |
+| Date | Protocol | Type | Platform | Confirmed | Earned | Place |
+|------|----------|------|----------|-----------|--------|-------|
+| Nov–Dec 2025 | Mento | CDP Stablecoin, FX | Cantina | 1 | $256.78 | 🎖️ 6th |
+| Nov 2025 | Alignerz | Fair-Launch, Vesting | Dual-Guard | 8 | $958.48 | 🏅 5th |
+| Nov 2025 | Firelight | Liquid Staking, DeFi Insurance | Immunefi | 1 | $1,000.00 | 🎖️ 5th |
+| Oct 2025 | Avon | Lending Order Book | Cantina | 5 | $23.40 | 🎖️ 26th |
+| Aug–Sep 2025 | GTE Perps & Launchpad | Perpetuals CLOB, Launchpad | Code4rena | 2 | $73.38 | - |
+| Jul 2025 | Succinct Network | ZK Proof Infrastructure | Cantina | 1 | $298.24 | 🎖️ 16th |
 
 
 ---
