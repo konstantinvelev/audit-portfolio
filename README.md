@@ -40,7 +40,7 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 |----|----------|-------------|----------|------|----------|
 | 1 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Solidity | March 2026 | [SBSecurity](https://www.sbsecurity.net/) |
 | 2 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Cairo | April 2026 | [SBSecurity](https://www.sbsecurity.net/) |
-| 3 | Private | Staking, DEX, UniswapV3, Aerodrome, Panckake | Solidity | April 2026 | [Valves](https://valvessecurity.com/) |
+| 3 | [SnuggleFi](https://www.snuggle.fi/) | Staking, DEX, UniswapV3, Aerodrome, Panckake | Solidity | April 2026 | [Valves](https://valvessecurity.com/) |
 
 ---
 
