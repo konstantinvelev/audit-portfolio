@@ -38,9 +38,9 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 
 | Id | Protocol | Description | Language | Date | Company |
 |----|----------|-------------|----------|------|----------|
-| 1 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Solidity | March 2026 | [SBSecurity](https://www.sbsecurity.net/) |
+| 1 | [SnuggleFi](https://www.snuggle.fi/) | Staking, DEX, UniswapV3, Aerodrome, Panckake | Solidity | April 2026 | [Valves](https://valvessecurity.com/) |
 | 2 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Cairo | April 2026 | [SBSecurity](https://www.sbsecurity.net/) |
-| 3 | [SnuggleFi](https://www.snuggle.fi/) | Staking, DEX, UniswapV3, Aerodrome, Panckake | Solidity | April 2026 | [Valves](https://valvessecurity.com/) |
+| 3 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Solidity | March 2026 | [SBSecurity](https://www.sbsecurity.net/) |
 
 ---
 
@@ -50,6 +50,7 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 
 | Date | Protocol | Type | Platform | Confirmed | Earned | Place |
 |------|----------|------|----------|-----------|--------|-------|
+| Jan–Feb 2026 | Fluid DEX V2 | DEX | Sherlock | 1 | $2,516.24 | 🎖️ 9th |
 | Nov–Dec 2025 | Mento | CDP Stablecoin, FX | Cantina | 1 | $256.78 | 🎖️ 6th |
 | Nov 2025 | Alignerz | Fair-Launch, Vesting | Dual-Guard | 8 | $958.48 | 🏅 5th |
 | Nov 2025 | Firelight | Liquid Staking, DeFi Insurance | Immunefi | 1 | $1,000.00 | 🎖️ 5th |
