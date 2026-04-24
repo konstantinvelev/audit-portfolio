@@ -53,7 +53,7 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 | Jan–Feb 2026 | Fluid DEX V2 | DEX | Sherlock | 1 | $2,516.24 | 🎖️ 9th |
 | Nov–Dec 2025 | Mento | CDP Stablecoin, FX | Cantina | 1 | $256.78 | 🎖️ 6th |
 | Nov 2025 | Alignerz | Fair-Launch, Vesting | Dual-Guard | 8 | $958.48 | 🏅 5th |
-| Nov 2025 | Firelight | Liquid Staking, DeFi Insurance | Immunefi | 1 | $1,000.00 | 🎖️ 5th |
+| Nov 2025 | Firelight | Liquid Staking, DeFi Insurance | Immunefi | 1 | $1,000.00 | 🏅 5th |
 | Oct 2025 | Avon | Lending Order Book | Cantina | 5 | $23.40 | 🎖️ 26th |
 | Aug–Sep 2025 | GTE Perps & Launchpad | Perpetuals CLOB, Launchpad | Code4rena | 2 | $73.38 | - |
 | Jul 2025 | Succinct Network | ZK Proof Infrastructure | Cantina | 1 | $298.24 | 🎖️ 16th |
