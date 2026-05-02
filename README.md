@@ -1,8 +1,8 @@
 <div align="center">
 
-# **velev** — Smart Contract Security Researcher
+# **Velev** — Smart Contract Security Researcher
 
-30+ uncovered bugs across DeFi protocols · Starving for more.
+Solidity / EVM · Cairo · DeFi protocol security · Private engagements
 
 [![X / Twitter](https://img.shields.io/badge/-velevvv-black?logo=x&logoColor=white)](https://x.com/velevvv)
 [![Telegram](https://img.shields.io/badge/-velevvv-2CA5E0?logo=telegram&logoColor=white)](https://t.me/velevvv)
@@ -16,37 +16,64 @@
 
 ## About
 
-Hi, I'm **Velev** - a smart contract security researcher specializing in Solidity/EVM systems, DeFi protocols, and protocol invariant analysis.
+I work with protocol teams on pre-launch and pre-upgrade security reviews of Solidity and Cairo systems — primarily DeFi: lending, perpetuals, stablecoins, DEXs, staking, and cross-chain infrastructure.
 
-Participated in **over 25 public contests** across diverse Web3 protocols, uncovering confirmed vulnerabilities with multiple top 10 placements, including 2 top 5 finishes.
+My approach is deep-dive over breadth: fewer engagements per quarter, more time per codebase, direct collaboration with the dev team on mitigations and invariant design. I care about the bugs that don't show up in pattern matching — economic exploits, accounting drift, broken invariants under adversarial sequencing.
 
-- **Protocol types:** Lending & Borrowing, Staking, Perpetuals, Stablecoins, Options Trading, DEX, Yield Farming, Cross-chains & Bridges, and NFT-based contracts.
-- **Integrated concepts:** Uniswap V2/V3, Liquity & CDP, Bonding Curves, Governors, Aerodrome, Pancake, SushiSwap, L1 and L2
-- **Ecosystems:** Ethereum, Solana, Sui, Starknet, Cosmos
-- **Placements:**
-  - 2x 5th place
-  - 5x Top 10
-- **Engagements:** Actively communicate with developers to ensure security, discuss mitigations and fixes for complex bugs. Review findings to help judges about severities and validities of findings to make sure the code is secure enough.
-- **Tools:** Manual review, Foundry, custom-driven AI skills and AI tools, Fuzzing
-- **Top Finding:** High severity issue allowing an attacker to create a Uniswap V2 pair and manipulate it's state to completely break core protocol invariants
+Background: 25+ public contests across Sherlock, Cantina, Code4rena and Immunefi before transitioning toward private engagements. 30+ confirmed findings, multiple top-10 placements including 2x 5th place finishes.
 
-I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits of protocols. DMs are open for collaborations and private audit engagements.
+**Currently accepting private audit engagements** for Q2–Q3 2026. DMs open.
 
 ---
 
-## 🕵 Private Audits
+## 🔒 Private Audit Engagements
 
-| Id | Protocol | Description | Language | Date | Company |
-|----|----------|-------------|----------|------|----------|
-| 1 | [SnuggleFi](https://www.snuggle.fi/) | Staking, DEX, UniswapV3, Aerodrome, Panckake | Solidity | April 2026 | [Valves](https://valvessecurity.com/) |
-| 2 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Cairo | April 2026 | [SBSecurity](https://www.sbsecurity.net/) |
-| 3 | ShiftProtocol V2 | Vaults, Bridges, Off-chain integration | Solidity | March 2026 | [SBSecurity](https://www.sbsecurity.net/) |
+| # | Protocol | Scope | Stack | Date | Firm |
+|---|----------|-------|-------|------|------|
+| 1 | ShiftProtocol V2 | Vaults, bridges, off-chain integration | Solidity | Mar 2026 | [SBSecurity](https://www.sbsecurity.net/) |
+| 2 | ShiftProtocol V2 | Vaults, bridges, off-chain integration | Cairo | Apr 2026 | [SBSecurity](https://www.sbsecurity.net/) |
+| 3 | [SnuggleFi](https://www.snuggle.fi/) | Staking, DEX integrations (UniswapV3, Aerodrome, Pancake) | Solidity | Apr 2026 | [Valves](https://valvessecurity.com/) |
+
+> Reports available on request where NDA permits. For ongoing engagements I publish redacted writeups of notable findings — see [Selected Findings](#-selected-findings) below.
 
 ---
 
-## 🏆 Public Contest Achievements
+## 🎯 Selected Findings
 
-*Only contests with confirmed findings and on-chain rewards are listed.*
+> Detailed writeups of representative bugs across recent work. These illustrate how I think about a codebase, not just what I found.
+
+**Uniswap V2 pair state manipulation breaking core protocol invariants** *(High severity)*
+An attacker can create a Uniswap V2 pair for a target protocol token and manipulate the pair's reserves to break a downstream invariant the protocol assumes about price oracles / reserve ratios. *Writeup coming soon — `findings/uniswap-v2-pair-manipulation.md`*
+
+*More writeups in progress.*
+
+---
+
+## 🤖 Open Source AI — powered by Velev
+
+As an auditor, I saw firsthand how much time is lost to repetitive analysis patterns — so I built the tooling to fix it. After investing in learning AI systems, I distilled that knowledge into a production-ready skill library: structured prompts, agent pipelines, and methodology frameworks designed specifically for smart contract security research. Plug-and-play for any auditor, any codebase, any platform.
+
+[![GitHub](https://img.shields.io/badge/-konstantinvelev/AI-181717?logo=github&logoColor=white)](https://github.com/konstantinvelev/AI)
+
+---
+
+## 🛠 Focus & Methodology
+
+| | |
+|---|---|
+| **Languages** | Solidity / EVM, Cairo |
+| **Protocol types** | Lending & borrowing, perpetuals, stablecoins, DEXs & AMMs, staking, yield, options, cross-chain bridges |
+| **Integrations covered** | Uniswap V2/V3, Aerodrome, Pancake, Sushi, Liquity-style CDPs, bonding curves, Governor frameworks |
+| **Ecosystems** | Ethereum L1/L2, Solana, Sui, Starknet, Cosmos |
+| **Focus areas** | Economic exploits, accounting bugs, broken invariants, access control, adversarial sequencing, MEV-adjacent issues |
+| **Methodology** | Manual review (primary), Foundry-based PoC development, fuzzing, invariant testing, custom AI tooling for repeated patterns |
+| **Engagement style** | Direct dev collaboration on mitigations · iterative review on fixes · post-audit availability for follow-up questions |
+
+---
+
+## 🏆 Public Contest History
+
+Background context — competed across Sherlock, Cantina, Code4rena and Immunefi between 2024 and 2025 to build pattern recognition across protocol types before moving toward private work.
 
 | Date | Protocol | Type | Platform | Confirmed | Earned | Place |
 |------|----------|------|----------|-----------|--------|-------|
@@ -54,65 +81,40 @@ I compete across Sherlock, Cantina, Code4rena platforms and do few shadow audits
 | Nov–Dec 2025 | Mento | CDP Stablecoin, FX | Cantina | 1 | $256.78 | 🎖️ 6th |
 | Nov 2025 | Alignerz | Fair-Launch, Vesting | Dual-Guard | 8 | $958.48 | 🏅 5th |
 | Nov 2025 | Firelight | Liquid Staking, DeFi Insurance | Immunefi | 1 | $1,000.00 | 🏅 5th |
-| Oct 2025 | Avon | Lending Order Book | Cantina | 5 | $23.40 | 🎖️ 26th |
-| Aug–Sep 2025 | GTE Perps & Launchpad | Perpetuals CLOB, Launchpad | Code4rena | 2 | $73.38 | - |
+| Oct 2025 | Avon | Lending Order Book | Cantina | 5 | — | 🎖️ 26th |
+| Aug–Sep 2025 | GTE Perps & Launchpad | Perpetuals CLOB, Launchpad | Code4rena | 2 | — | — |
 | Jul 2025 | Succinct Network | ZK Proof Infrastructure | Cantina | 1 | $298.24 | 🎖️ 16th |
 
+*Total across all contests: 30+ confirmed findings, 2x 5th place, 5x top-10.*
 
 ---
 
-## 🤖 Open Source AI - powered by Velev
+## 📚 Background & Continuous Learning
 
-As an auditor, I saw firsthand how much time is lost to repetitive analysis patterns - so I built the tooling to fix it. After investing in learning AI systems, I distilled that knowledge into a production-ready skill library: structured prompts, agent pipelines, and methodology frameworks designed specifically for smart contract security research. Plug-and-play for any auditor, any codebase, any platform.
+**Cyfrin Updraft** — completed tracks: Blockchain Basics, Solidity Smart Contract Development, Foundry Fundamentals, Advanced Foundry, Smart Contract Security, Assembly & Formal Verification, Uniswap V2, Uniswap V3, Chainlink Fundamentals, Web3 Wallet Security.
 
-[![GitHub](https://img.shields.io/badge/-konstantinvelev/AI-181717?logo=github&logoColor=white)](https://github.com/konstantinvelev/AI)
+**RareSkills** — low-level EVM internals, gas optimization, advanced Solidity patterns.
 
----
+**Solodit** — systematic review of past audit findings across major platforms; ongoing reference and pattern source.
 
-## 🛠️ Focus & Tooling
-
-| | |
-|---|---|
-| **Languages** | Solidity / EVM |
-| **Protocol Types** | Perpetuals, Yield, DEX, Borrow & Lending, Options trading, Lottery & Gaming, Stablecoins & Stable AMM pools |
-| **Focus Areas** | Attacker exploits, Protocol invariants, Accounting bugs, Access control, Economic exploits |
-| **Methodology** | Manual review, AI tools,  Fuzzing | 
-| **Platforms** | Sherlock · Cantina · Code4rena · Private bounties · Shadow audits |
+Coursework and practice repositories: [github.com/konstantinvelev/web3](https://github.com/konstantinvelev/web3)
 
 ---
-
-## 📚 Education & Resources
-
-### Cyfrin Updraft — Completed Courses
-
-| Area | Courses |
-|------|---------|
-| **Foundations** | Blockchain Basics · Solidity Smart Contract Development |
-| **Dev Tooling** | Foundry Fundamentals · Advanced Foundry |
-| **Security** | Smart Contract Security · Assembly and Formal Verification |
-| **Protocol Deep Dives** | Uniswap V2 · Uniswap V3 · Chainlink Fundamentals · Web3 Wallet Security Basics |
-
-Check out my work here: [![GitHub](https://img.shields.io/badge/-konstantinvelev-181717?logo=github&logoColor=white)](https://github.com/konstantinvelev/web3)
-
-### Additional Resources
-
-- **RareSkills** - low-level EVM internals, gas optimization, and advanced Solidity patterns
-- **X / Twitter** - following top security researchers, reading post-mortems and live audit threads
-- **Solodit** - systematic deep dive into 50,000+ past audit findings across all major platforms
-- **Hands-on practice** - public contests, past audits, and reviewing historical audit reports
 
 ## 📫 Contact
 
-| Platform | Link |
-|----------|------|
-| X / Twitter | [@velevvv](https://x.com/velevvv) |
-| Telegram | [@velevvv](https://t.me/velevvv) |
-| Email | [konstantin.velev.personal@gmail.com](mailto:konstantin.velev.personal@gmail.com) |
+For private audit inquiries, the fastest channels are Telegram or email. Please include: protocol description, scope (LOC and contracts), preferred timeline, and whether you have an existing audit report I'd be reviewing alongside.
+
+| | |
+|---|---|
+| **Telegram** | [@velevvv](https://t.me/velevvv) |
+| **X / Twitter** | [@velevvv](https://x.com/velevvv) |
+| **Email** | velev.sr@gmail.com |
 
 ---
 
 <div align="center">
 
-**Open to collaborations, private audits, and team engagements.**
+*Available for solo engagements and team collaborations with established audit firms.*
 
 </div>
